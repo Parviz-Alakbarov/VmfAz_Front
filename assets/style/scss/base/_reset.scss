@@ -1,0 +1,17 @@
+@use "../abstracts/colors" as c;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    color: #000;
+    &::selection{
+        color: white;
+        background-color: c.$main-brown;
+    }
+}

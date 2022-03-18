@@ -1,0 +1,15 @@
+@use "abstracts/colors";
+@use "base/typography";
+@use "base/reset";
+@use "components/productCard";
+@use "components/brandItem";
+@use "layout/pageHead";
+
+@import "layout/grid",
+        "layout/navigation",
+        "components/scrollUp",
+        "layout/footer",
+        "pages/home",
+        "layout/section",
+        "pages/shop";
+
