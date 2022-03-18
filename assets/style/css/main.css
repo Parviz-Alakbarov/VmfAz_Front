@@ -133,6 +133,7 @@ main {
   height: 150px;
   position: relative;
   overflow: hidden;
+  margin-bottom: 40px;
 }
 .page-head_text {
   text-align: center;
