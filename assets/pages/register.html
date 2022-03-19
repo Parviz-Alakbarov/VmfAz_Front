@@ -105,26 +105,54 @@
       <section id="loginForm" class="form">
         <div class="container">
           <div class="form_main">
-            <h3 class="form_head">Giriş</h3>
+            <h3 class="form_head">Qeydiyyatdan keç</h3>
             <form action="" method="post" class="form_form">
-              <input type="email" class="form_email" placeholder="Email" />
-              <input
-                type="password"
-                class="form_password"
-                placeholder="Şifrə"
-              />
 
-              <label style="display: flex" class="checkbox bounce">
-                <input type="checkbox" />
-                <svg viewBox="0 0 21 21">
-                  <polyline points="5 10.75 8.5 14.25 16 6"></polyline>
-                </svg>
-                <span>Yadda saxla</span>
-              </label>
-              <button class="form_submitBtn">Giriş</button>
+              <label class="form_label" for="formName">Ad</label>
+              <input id="formName" type="text" />
+
+              <label class="form_label" for="formSurname">Soyad</label>
+              <input id="formSurname" type="text" />
+
+              <label class="form_label" for="email">Email</label>
+              <input id="email" type="email" />
+
+              <label class="form_label" for="formPhone">Telefon</label>
+              <input id="formPhone" type="text" />
+
+              <label class="form_label" for="formCountry">Ölkə</label>
+                <select name="Country" id="formCountry">
+                    <option disabled selected aria-readonly="true">Ölkə seçin</option>
+                    <option value="1">Azerbaijan</option>
+                    <option value="2">Russian</option>
+                    <option value="3">Germany</option>
+                    <option value="4">America</option>
+                </select>
+
+              <label class="form_label" for="formCity">Şəhər</label>
+                <select name="City" id="formCity">
+                    <option disabled selected aria-readonly="true">Şəhər seçin</option>
+                    <option value="1">Baku</option>
+                    <option value="2">Qax</option>
+                    <option value="3">Şamaxı</option>
+                    <option value="4">Şəki</option>
+                </select>
+
+              <label class="form_label" for="formPhone">Ünvan</label>
+              <input id="formPhone" type="text" />
+
+              <label class="form_label" for="password">Şifrə</label>
+              <input id="password" type="password" />
+
+              <label class="form_label" for="passwordConf">Şifrə(Təkrar)</label>
+              <input id="passwordConf" type="password"  />
+
+              <button class="form_submitBtn">Qeydiyyat</button>
+
               <p class="form_registerLink">
-                və ya <a routerLink="register">Qeydiyyatdan keç</a>
+                və ya <a routerLink="register">Daxil ol</a>
               </p>
+
             </form>
           </div>
         </div>
