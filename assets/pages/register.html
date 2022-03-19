@@ -109,19 +109,19 @@
             <form action="" method="post" class="form_form">
 
               <label class="form_label" for="formName">Ad</label>
-              <input id="formName" type="text" />
+              <input id="formName" type="text" autocomplete="name" />
 
-              <label class="form_label" for="formSurname">Soyad</label>
-              <input id="formSurname" type="text" />
+              <label class="form_label" for="formSurname" >Soyad</label>
+              <input id="formSurname" type="text" autocomplete="family-name" />
 
               <label class="form_label" for="email">Email</label>
-              <input id="email" type="email" />
+              <input id="email" type="email" autocomplete="email" />
 
               <label class="form_label" for="formPhone">Telefon</label>
-              <input id="formPhone" type="text" />
+              <input id="formPhone" type="text" autocomplete="tel" />
 
               <label class="form_label" for="formCountry">Ölkə</label>
-                <select name="Country" id="formCountry">
+                <select name="Country" id="formCountry" autocomplete="country-name">
                     <option disabled selected aria-readonly="true">Ölkə seçin</option>
                     <option value="1">Azerbaijan</option>
                     <option value="2">Russian</option>
@@ -130,7 +130,7 @@
                 </select>
 
               <label class="form_label" for="formCity">Şəhər</label>
-                <select name="City" id="formCity">
+                <select name="City" id="formCity" autocomplete="address-level2">
                     <option disabled selected aria-readonly="true">Şəhər seçin</option>
                     <option value="1">Baku</option>
                     <option value="2">Qax</option>
@@ -139,13 +139,13 @@
                 </select>
 
               <label class="form_label" for="formPhone">Ünvan</label>
-              <input id="formPhone" type="text" />
+              <input id="formPhone" type="text" autocomplete="street-address" />
 
               <label class="form_label" for="password">Şifrə</label>
-              <input id="password" type="password" />
+              <input id="password" type="password" autocomplete="new-password"/>
 
               <label class="form_label" for="passwordConf">Şifrə(Təkrar)</label>
-              <input id="passwordConf" type="password"  />
+              <input id="passwordConf" type="password" autocomplete="new-password" />
 
               <button class="form_submitBtn">Qeydiyyat</button>
 
