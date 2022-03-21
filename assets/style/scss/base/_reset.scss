@@ -15,3 +15,27 @@
         background-color: c.$main-brown;
     }
 }
+
+select{
+    cursor: pointer;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: c.$scrollbar-trackColor; 
+    border-radius: 10px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: c.$scrollbar-thumbColor; 
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: c.$scrollbar-thumbHoverColor; 
+  }
